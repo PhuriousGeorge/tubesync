@@ -142,8 +142,9 @@ Alternatively, for Docker Compose, you can use something like:
 
 ## Optional authentication
 
-If you want to enable a basic username and password to be required to access the
-TubeSync dashboard you can set them with the following environment variables:
+Available in `v1.0` (or `:latest`)and later. If you want to enable a basic username and
+password to be required to access the TubeSync dashboard you can set them with the
+following environment variables:
 
 ```bash
 HTTP_USER
@@ -238,6 +239,8 @@ and less common features:
 ![Import existing media into TubeSync](https://github.com/meeb/tubesync/blob/main/docs/import-existing-media.md)
 
 ![Sync or create missing metadata files](https://github.com/meeb/tubesync/blob/main/docs/create-missing-metadata.md)
+
+![Reset tasks from the command line](https://github.com/meeb/tubesync/blob/main/docs/reset-tasks.md)
 
 
 # Warnings
